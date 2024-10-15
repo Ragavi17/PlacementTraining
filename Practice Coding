@@ -87,3 +87,20 @@ int main()
     cout<<Avg(a,n);
     return 0;
 }*/
+//Factorial
+/*#include<iostream>
+using namespace std;
+int Fact(int n)
+{
+    if(n==1||n==0)
+    {
+        return 1;
+    }
+    return n*Fact(n-1);
+}
+int main()
+{
+    int n=7;
+    cout<<Fact(n);
+    return 0;
+}*/
