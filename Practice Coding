@@ -104,3 +104,54 @@ int main()
     cout<<Fact(n);
     return 0;
 }*/
+/*
+//Fibbonacci series
+#include <iostream>
+using namespace std;
+int Fibo(int n)
+{
+    if(n==0)
+    {
+        return 0;
+    }
+    else if(n==1)
+    {
+        return 1;
+    }
+    return Fibo(n-1)+Fibo(n-2);
+}
+int main() {
+    int n=3;
+    cout<<Fibo(n);
+    return 0;
+}*/
+/*
+//Vowels count;
+#include<iostream>
+using namespace std;
+void  Vowels(string s)
+{
+    int count=0;
+    int constant=0;
+    int n=s.length();
+    int a;
+    int b;
+    for(int i=0;i<n;i++){
+    if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u')
+    {
+        count++;
+        a=count;
+    }
+    else
+    {
+        constant++;
+         b=constant;
+    }
+    }
+    cout<<a<<" "<<b;
+}
+int main()
+{
+    string s="hello";
+    Vowels(s);
+}
